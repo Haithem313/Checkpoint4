@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link rel="stylesheet" href="css\style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+    <div id="ex1" class="modal">
+        <p>This is GoMyCode Track.<br>
+            Each track has its own goal. <br>
+            By adopting this track, you chose your own goal.</p>
+        <a href="#" rel="modal:close">Close</a>
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><img class="logo" src="res\logo.png"></li>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <center>
+        <form>
+            <div class="course">
+                <h1 class="motcourse">COURSES</h1><br>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div>
+                <div class="ligneone" align="center">
+                    <div class="cont">
+                        <img src="res\btn1.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text"><a href="#ex1" rel="modal:open" class="fant">View more </a></button>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="res\btn2.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text"><a href="#ex1" rel="modal:open" class="fant">View more </a></button>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="res\btn3.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text"><a href="#ex1" rel="modal:open" class="fant">View more </a></button>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="lignetwo" align="center">
+                    <div class="cont">
+                        <img src="res\btn4.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text"><a href="#ex1" rel="modal:open" class="fant">View more </a></button>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="res\btn5.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text"><a href="#ex1" rel="modal:open" class="fant">View more </a></button>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="res\btn6.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text"><a href="#ex1" rel="modal:open" class="fant">View more </a></button>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="lignethree" align="center">
+                    <div class="cont">
+                        <img src="res\btn7.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text"><a href="#ex1" rel="modal:open" class="fant">View more </a></button>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="res\btn8.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text"><a href="#ex1" rel="modal:open" class="fant">View more </a></button>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <img src="res\btn9.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <button class="text" href="#ex1" rel="modal:open"><a class="fant"><a>View more </a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div>
+                    <b>
+                        <h3 style="color: rgb(197, 91, 91)">Feedback</h3>
+                    </b><br>
+                    <button onclick="gras(event)">B</button>
+                    <button onclick="ital(event)">I</button>
+                    <button onclick="under(event)">Underline</button>
+                    <select id="size" onchange="changesize(event)">
+                        <option value="20px">20 px</option>
+                        <option value="30px">30 px</option>
+                        <option value="40px">40 px</option>
+                    </select>
+                    <select id="fonte" onchange="changefont(event)">
+                        <option value="Arial">Arial</option>
+                        <option value="Courier">Courier</option>
+                        <option value="monospace">monospace</option>
+                    </select><br>
+                    <textarea class="form-control" id="myText" rows="3"></textarea>
+                </div>
+
+        </form>
+    </center>
+
+</body>
+
+<script src="js\main.js"></script>
+
+</html>
